@@ -1,0 +1,29 @@
+.link a {
+  text-decoration: none;
+  color: #333;
+  outline: none;
+}
+
+.link a > div {
+  width: 300px;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border-radius: 10px;
+  transition: 0.2s ease all;
+}
+
+.link a:hover > div {
+  background: #333;
+}
+
+.link a:hover > div h3 {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .link a > div {
+    width: 200px;
+    margin: 0;
+    border-radius: 0;
+  }
+}

@@ -1,0 +1,56 @@
+.header {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+
+.clock {
+    margin-left: 29rem;
+}
+
+.loader {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F7F6F2;
+    border-radius: 30px 0 0 0;
+    padding: 3rem;
+}
+
+.loader img {
+    height: 20px;
+    width: 50px;
+}
+
+.cards {
+    background: #F7F6F2;
+    border-radius: 30px 0 0 0;
+    padding: 2rem;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.pagination {
+    background: #F7F6F2;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 0;
+}
+
+@media screen and (max-width: 568px) {
+    .dashboard {
+        width: 100vw;
+    }
+
+    .header {
+        margin-left: 3.5rem;
+    }
+
+    .pagination {
+        width: 100%;
+    }
+}
