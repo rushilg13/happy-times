@@ -6,6 +6,10 @@ It uses React, FastAPI and NLP techniques to classifies news as positive or nega
 # Deployed at
 https://imtanmay21.github.io/news-app
 
+
+# Backend Code 
+https://github.com/rushilg13/GoodNews
+
 # Stack
 FARM Stack <br>
 FA - FastAPI <br>
