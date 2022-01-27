@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
 import { Navbar } from './components/Navbar/Navbar';
@@ -17,7 +17,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename='/'>
       <div className="App">
         <div className='mobile-navbar-container' onClick={handleToggle}>
           <div className='mobile-navbar'>
