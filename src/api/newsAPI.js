@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = `https://goodnewsapi.herokuapp.com`;
+const baseURL = `https://goodnewsapi.up.railway.app`;
 let newsData;
 
 export const newsAPI = async (category, country) => {
